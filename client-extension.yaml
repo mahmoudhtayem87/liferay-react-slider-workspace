@@ -1,0 +1,15 @@
+assemble:
+  - from: build/static
+    into: static
+liferay-react-slider-custom-element:
+  friendlyURLMapping: liferay-react-slider-custom-element
+  htmlElementName: liferay-react-slider-custom-element
+  instanceable: true
+  name: Liferay React Slider
+  portletCategoryName: category.client-extensions
+  type: customElement
+  cssURLs:
+    - css/main.*.css
+  urls:
+    - js/main.*.js
+  useESM: true
